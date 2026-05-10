@@ -1,1 +1,39 @@
-Nothing should be ignored in this case. The changes consist only of a Python source file (.py) and a modified Excel file (xlsx), which are both legitimate project files that should be tracked in version control. There are no build artifacts, dependencies, temporary files, or other items that need to be ignored.
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# System files
+.DS_Store
+Thumbs.db
